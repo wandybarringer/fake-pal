@@ -8,36 +8,86 @@
     <link rel="stylesheet" href="style05.css" />
   </head>
   <body>
-    <main class="content">
-      <a href="#" class="back-link">&larr; Back</a>
-      <h1>stonekitchenhub</h1>
+    <aside class="sidebar">
+      <div class="brand-logo">Payment Service</div>
+      <div class="env-toggle">
+        <div class="env-btn">Sandbox</div>
+        <div class="env-btn active">Live</div>
+      </div>
 
+      <nav>
+        <a href="#" class="nav-item">🏠 Home</a>
+        <a href="#" class="nav-item">📱 Apps & Credentials</a>
+        <a href="#" class="nav-item">🧪 Testing Tools <span>▾</span></a>
+        <a href="#" class="nav-item">📓 Event Logs <span>▾</span></a>
+        <hr />
+        <a href="#" class="nav-item">📄 Docs <span>▾</span></a>
+        <a href="#" class="nav-item">⚙️ APIs & SDKs <span>▾</span></a>
+        <a href="#" class="nav-item">🛠️ Tools <span>▾</span></a>
+        <a href="#" class="nav-item">🎥 Video Library</a>
+        <a href="#" class="nav-item">❓ Help</a>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <header class="top-header">
+        <div>
+          <h2>☰ &nbsp; &nbsp; Client Name</h2>
+        </div>
+        <div class="search-container">
+          <input type="text" placeholder="Ask us anything" />
+        </div>
+        <div>
+          <a href="index.html">Business Dashboard</a>
+          <div class="profile-circle">TR</div>
+        </div>
+      </header>
+
+      <a href="#" class="back-link">&larr; Back</a>
+      <h1>test-app</h1>
+      <br />
       <div class="warning-banner">
-        <p><strong>Note that not all features are available for live transactions.</strong> Features available for live transactions are listed in your <strong>account eligibility</strong>.</p>
+        <p><strong>ℹ️ Note that all words that you are reading are placeholders.</strong> Hopefully you have enjoyed reading these <strong>placeholders</strong>.</p>
       </div>
 
       <section class="credentials-section">
         <h3>API credentials</h3>
         <div class="important-box">
-          <p>Important: Keep your app secure! Rotate client secrets regularly, store credentials safely, and never share client IDs or secrets publicly.</p>
+          <p>ℹ️ Important: Make sure to drink plenty of water. It's important to stay hydrated!</p>
         </div>
 
-        <div class="cred-row"><span>Display App Name</span> <strong>stonekitchenhub</strong> ✏️</div>
-        <div class="cred-row">
-          <span>Client ID</span>
-          <code>AaIBZO3lw...</code> 📋
+        <div class="cred-box">
+          <div class="cred-row">
+            <p class="label">Display App Name</p>
+            <div class="value-container"><strong>test-app</strong> ✏️</div>
+          </div>
+
+          <div class="cred-row">
+            <p class="label">Client ID</p>
+            <div class="value-container">
+              <span id="client-id">Aa23hdfkjl2323789dfdfjlkj2131313213kjlsd343498798sdfskllfdfkj_kjl</span>
+              <span id="ci-copy-btn">📋</span>
+            </div>
+          </div>
+
+          <div class="cred-row">
+            <p class="label">Secret key 1</p>
+            <div class="value-container">
+              <span id="secret-key">••••••••••••••</span>
+              👁️ <span id="sk-copy-btn">📋</span> ⋮
+            </div>
+          </div>
+
+          <a href="#" class="add-key">+ Add Second Key</a>
         </div>
-        <div class="cred-row">
-          <span>Secret key 1</span>
-          <code>••••••••••••••</code> 👁️ 📋 ⋮
-        </div>
-        <a href="#" class="add-key">+ Add Second Key</a>
       </section>
 
       <section class="account-section">
-        <h3>Live PayPal account</h3>
-        <div class="settings-link"><a href="#">Business Account Settings</a></div>
-        <div class="cred-row"><span>Primary Email</span> stonekitchenhub@gmail.com 📋</div>
+        <div class="cred-row">
+          <h3>Live PayPal account</h3>
+          <div class="settings-link"><a href="#">Business Account Settings</a></div>
+        </div>
+        <div class="primary-email"><span>Primary Email</span>&nbsp; &nbsp; &nbsp; test@test.com 📋</div>
       </section>
 
       <section class="features-section">
@@ -46,36 +96,51 @@
           <div class="features-col">
             <h4>Payment methods</h4>
             <div class="feature-box">
-              <p><strong>Expanded checkout</strong><br />Accept 3D Secure payments and present credit and debit card fields using your site's branding.</p>
+              <p><strong>ℹ️ Expanded checkout</strong><br /><small>Here's some more placeholder text.</small></p>
               <ul class="feature-list">
-                <li>Contact PayPal to enable Advanced Credit and Debit Card Payments. <a href="#">Learn More</a></li>
-                <li>Your account isn't provisioned for Apple Pay. <a href="#">Onboard to Apple Pay</a></li>
-                <li>Your account isn't provisioned for Google Pay. <a href="#">Onboard to Google Pay</a></li>
-                <li>Contact PayPal to enable Fastlane Checkout. <a href="#">Learn more</a></li>
-                <li>Contact PayPal to enable IC++. <a href="#">Learn More</a></li>
+                <li>
+                  <small
+                    >ℹ️ Advanced Credit and Debit Card Payments. <strong><a href="fakepal-11.html">Learn More</a></strong></small
+                  >
+                </li>
+                <li>
+                  <small
+                    >ℹ️ Your account isn't provisioned for Apple Pay. <strong><a>Onboard to Apple Pay</a></strong></small
+                  >
+                </li>
+                <li>
+                  <small
+                    >ℹ️ Your account isn't provisioned for Google Pay. <strong><a>Onboard to Google Pay</a></strong></small
+                  >
+                </li>
+                <li>
+                  <small
+                    >ℹ️ Contact the guy to enable Fastlane Checkout. <strong><a>Learn more</a></strong></small
+                  >
+                </li>
+                <li>
+                  <small
+                    >ℹ️ Contact the guy to enable IC++. <strong><a>Learn More</a></strong></small
+                  >
+                </li>
               </ul>
             </div>
             <p>
-              <small>ℹ Contact the merchant to enable PayPal and Venmo. <a href="#">Learn More</a></small>
+              <small>ℹ️ Contact the guy to do the thing and stuff. <a>Learn More</a></small>
             </p>
           </div>
 
           <div class="features-col">
             <h4>Add-on services</h4>
             <label><input type="checkbox" checked /> Customer disputes</label>
-            <label><input type="checkbox" /> Log in with PayPal</label>
+            <label><input type="checkbox" /> Log in with Something</label>
             <label><input type="checkbox" /> Transaction search</label>
 
-            <h4>PayPal SDKs</h4>
+            <h4>Payment SDKs</h4>
             <label><input type="checkbox" checked /> JavaScript SDK v6</label>
             <label><input type="checkbox" checked /> Mobile SDKs</label>
           </div>
         </div>
-
-        <h4>Payment capabilities</h4>
-        <label><input type="checkbox" checked /> Save payment methods</label>
-        <label><input type="checkbox" checked /> Subscriptions</label>
-        <label><input type="checkbox" /> Invoicing</label>
       </section>
     </main>
   </body>

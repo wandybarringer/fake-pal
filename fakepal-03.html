@@ -3,65 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>API Credentials - Training Portal</title>
-    <link rel="stylesheet" href="style03.css" />
+    <title>Training Environment</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <aside class="sidebar">
-      <div class="logo-section">
-        <span class="brand">TrainingPortal</span>
-        <div class="toggle-pill">
-          <button class="pill-btn active">Sandbox</button>
-          <button class="pill-btn">Live</button>
-        </div>
+      <div class="brand-logo">Payment Service</div>
+      <div class="env-toggle">
+        <div class="env-btn">Sandbox</div>
+        <div class="env-btn active">Live</div>
       </div>
 
-      <nav class="nav-list">
-        <a href="home.html" class="nav-link">🏠 Home</a>
-        <a href="#" class="nav-link active">📱 Apps & Credentials</a>
-        <a href="#" class="nav-link">🧪 Testing Tools</a>
-        <a href="#" class="nav-link">📓 Event Logs</a>
+      <nav>
+        <a href="#" class="nav-item">🏠 Home</a>
+        <a href="#" class="nav-item active">📱 Apps & Credentials</a>
+        <a href="#" class="nav-item">🧪 Testing Tools <span>▾</span></a>
+        <a href="#" class="nav-item">📓 Event Logs <span>▾</span></a>
         <hr />
-        <a href="#" class="nav-link">📄 Docs</a>
-        <a href="#" class="nav-link">⚙️ APIs & SDKs</a>
-        <a href="#" class="nav-link">🛠️ Tools</a>
+        <a href="#" class="nav-item">📄 Docs <span>▾</span></a>
+        <a href="#" class="nav-item">⚙️ APIs & SDKs <span>▾</span></a>
+        <a href="#" class="nav-item">🛠️ Tools <span>▾</span></a>
+        <a href="#" class="nav-item">🎥 Video Library</a>
+        <a href="#" class="nav-item">❓ Help</a>
       </nav>
     </aside>
 
-    <main class="viewport">
-      <header class="navbar">
-        <div class="nav-left">
-          <span class="burger">☰</span>
-          <span class="user-id">Michael Robinson</span>
+    <main class="content">
+      <header class="top-header">
+        <div>
+          <h2>☰ &nbsp; &nbsp; Client Name</h2>
         </div>
-        <div class="search-bar">
+        <div class="search-container">
           <input type="text" placeholder="Ask us anything" />
         </div>
-        <div class="nav-right">
-          <span class="dash-link">Business Dashboard</span>
-          <div class="profile-icon">MR</div>
+        <div>
+          <a href="index.html">Business Dashboard</a>
+          <div class="profile-circle">TR</div>
         </div>
       </header>
 
       <div class="promo-banner">
-        <span>ℹ️ Training Portal SDK v6 is Now Available! <strong>Get Started</strong></span>
+        <span>ℹ️ This website is used for training purposes.</span>
         <button class="close-btn">×</button>
       </div>
 
       <section class="content-area">
         <div class="title-row">
           <h1>API Credentials</h1>
-          <button class="black-btn">Create App</button>
+          <a href="fakepal-04.html" class="black-btn">Create App</a>
         </div>
 
         <div class="api-section">
           <h2>REST API apps</h2>
           <div class="info-box">
-            <p>ℹ️ <strong>Important:</strong> Keep your app secure! Rotate client secrets regularly, store credentials safely, and never share client IDs or secrets publicly.</p>
+            <p>ℹ️ <strong>Important:</strong> You'll get an error if you're creating an App that has the word <strong>YOUR</strong> in it. You can rename it to "Business App" or just use the client's name.</p>
           </div>
 
           <div class="empty-state-card">
-            <p>Create an app to receive REST API credentials for testing and live transactions.</p>
+            <p>This is some place holder text to provide a visually simmilar reference to the real thing.</p>
           </div>
         </div>
       </section>
