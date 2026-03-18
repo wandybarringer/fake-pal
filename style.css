@@ -602,3 +602,205 @@ code {
 #sk-copy-btn {
   cursor: pointer;
 }
+
+/** Ready to take payments?  */
+
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: auto;
+  text-align: center;
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+.next-btn {
+  display: block;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.skip-link {
+  color: #0070ba;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/** Tell us about your business  */
+
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.logo-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size:;
+}
+
+.logo-wrapper h1 {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.field label {
+  display: block;
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.checkbox input {
+  width: auto;
+  margin-right: 10px;
+}
+
+.helper-text {
+  font-size: 12px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.phone-group {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 10px;
+}
+
+.legal {
+  font-size: 12px;
+  color: #555;
+  margin: 20px 0;
+}
+
+.legal a {
+  color: #0070ba;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 15px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+
+/** Start using checkout  */
+
+.centered-container {
+  text-align: center;
+  max-width: 450px;
+  padding: 20px;
+}
+
+.celebration-icon {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.helper-text {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.phone-mockup {
+  margin-bottom: 30px;
+}
+.phone-mockup img {
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.action-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.support-text {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.support-text a {
+  color: #0070ba;
+  text-decoration: none;
+  font-weight: 600;
+}
+.skip-link {
+  color: #0070ba;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
