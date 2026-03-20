@@ -3,39 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <title>Register your website with Apple Pay</title>
-    <link rel="stylesheet" href="style10.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="modal-overlay">
       <div class="modal-content">
         <div class="modal-header">
-          <img src="paypal-logo.png" alt="PayPal" class="logo" />
-          <button class="close-btn">✕</button>
+          <a class="close-btn">&times;</a>
         </div>
 
-        <h1>Register your website with Apple Pay</h1>
+        <h1>Register your website with Orange Pay</h1>
 
-        <p class="intro-text">Get your website ready to accept Apple Pay in three steps. If you work with a developer, they can help with step three.</p>
+        <p class="intro-text">Get your website ready to accept Orange Pay in three steps. If you work with a developer, they can help with step three.</p>
 
         <div class="step">
           <h3>1. Add your website</h3>
-          <p>We'll register this site with Apple Pay. Be sure to use your fully qualified domain. Example: domain.com</p>
-          <input type="text" value="stonekitchenhub.com" class="domain-input" />
+          <p>We'll register this site with Orange Pay. Be sure to use your fully qualified domain. Example: domain.com</p>
+          <input type="text" value="testwebsite.com" class="domain-input" />
         </div>
 
         <div class="step">
           <h3>2. Get your domain association file</h3>
           <p>This file acts as proof you own the website. You can download it below.</p>
-          <a href="#" class="download-link">↓ apple-developer-merchantid-domain-association</a>
+          <a href="#" class="download-link">⬇️ orange-developer-merchantid-domain-association</a>
         </div>
 
         <div class="step">
           <h3>3. Host your domain association file</h3>
-          <p>This exact address is where Apple will check for the file. A developer can take care of this step for you using our <a href="#">developer documentation</a>. Once the file's in place, you'll select Register Domain.</p>
-          <div class="url-box">https://stonekitchenhub.com/.well-known/apple-developer-merchantid-domain-association</div>
+          <p>This exact address is where Orange will check for the file. A developer can take care of this step for you using our <a href="#">developer documentation</a>. Once the file's in place, you'll select Register Domain.</p>
+          <div class="url-box">https://testwebsite.com/.well-known/orange-developer-merchantid-domain-association</div>
         </div>
 
-        <button class="register-btn">Register Domain</button>
+        <a class="register-btn">Register Domain</a>
       </div>
     </div>
   </body>
