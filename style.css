@@ -13,7 +13,7 @@
   --main-bg: #ffffff;
   --text-main: #2c2e2f;
   --border-color: #e5e7eb;
-  --paypal-blue: #003087;
+  --payment-service-blue: #003087;
   --light-blue: #0070ba;
 }
 
@@ -74,7 +74,7 @@ body {
 }
 
 .env-btn.active {
-  background: var(--paypal-blue);
+  background: var(--payment-service-blue);
   color: white;
 }
 
@@ -1026,7 +1026,7 @@ h1 {
   font-size: 13px;
 }
 
-/** Apple Pay  */
+/** Orange Pay  */
 
 .back-link {
   display: inline-block;
@@ -1177,7 +1177,7 @@ h1 {
 }
 
 .done-btn {
-  background: var(--paypal-blue);
+  background: var(--payment-service-blue);
   color: white;
   width: 300px;
   padding: 10px;
