@@ -118,7 +118,19 @@ a {
   text-decoration: none;
 }
 
+.profile-container {
+  position: relative; /* This is the 'anchor' for the absolute child */
+  display: inline-block;
+}
+
+#profile-circle-btn {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
 .profile-circle {
+  cursor: pointer;
   width: 35px;
   height: 35px;
   background: #000;
@@ -148,14 +160,18 @@ a {
 
 /* Profile Card */
 
-.profile-card {
+#profile-card {
   position: absolute;
-  top: 75px;
-  border: none;
+  top: 45px; /* Moves it exactly below the circle */
+  right: 0; /* Aligns the right edge of the card with the circle */
+  z-index: 100; /* Ensures it floats ABOVE other content */
+
+  /* Optional: Styling to make it look like a floating card */
+  background: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 250px; /* Set a width so it doesn't squash */
   border-radius: 8px;
-  box-shadow: 0 0 10px 5px #f0f0f0;
-  padding: 10px;
-  background: var(--main-bg);
 }
 
 .profile-card-bg {
@@ -1173,4 +1189,10 @@ h1 {
 .add-another-domain {
   color: var(--light-blue);
   font-weight: bold;
+}
+
+/** Logic Styling  */
+
+.hide-content {
+  display: none;
 }
