@@ -1141,3 +1141,36 @@ h1 {
   text-align: center;
   margin: 0 auto;
 }
+
+/** Website Registered */
+
+.check-mark {
+  font-size: 5rem;
+}
+
+.registered-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: var(--text-main);
+}
+
+.registered-larger {
+  font-size: 1.5rem;
+}
+
+.done-btn {
+  background: var(--paypal-blue);
+  color: white;
+  width: 300px;
+  padding: 10px;
+  border-radius: 50px;
+  border: solid 2px var(--light-blue);
+  font-weight: bold;
+}
+
+.add-another-domain {
+  color: var(--light-blue);
+  font-weight: bold;
+}
