@@ -24,6 +24,16 @@ body {
   background-color: var(--main-bg);
 }
 
+.training-disc {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  color: var(--nav-hover);
+  background: var(--light-blue);
+}
+
 /* Sidebar */
 .sidebar {
   width: var(--sidebar-w);
@@ -547,6 +557,7 @@ a {
   border-radius: 20px;
   font-weight: bold;
   cursor: pointer;
+  margin-bottom: 75px;
 }
 
 /** PAGE 5 SPECIFIC STYLES  */
